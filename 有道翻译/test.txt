@@ -1,0 +1,15 @@
+i: dog                                                                  //e
+from: AUTO
+to: AUTO
+smartresult: dict
+client: fanyideskweb
+salt: 16608307342760                                     //时间戳加噪声（盐）  i
+sign: ee9d8ee1ffe5c3cbfeaacf670f13846b   //解密                         sign
+lts: 1660830734276                                         //时间戳                       r
+bv: 50b61ff102560ebc7bb0148b22d7715c                                    
+doctype: json
+version: 2.1
+keyfrom: fanyi.web
+action: FY_BY_REALTlME
+
+
