@@ -7,7 +7,7 @@ while True:
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
         'Referer': 'https://fanyi.youdao.com/',
-        'Cookie': 'OUTFOX_SEARCH_USER_ID=-1266979300@10.105.137.202; OUTFOX_SEARCH_USER_ID_NCOO=889181073.6513071; ___rl__test__cookies=1660834771780'
+        'Cookie': 'xxxxxxxxxxxxxxxxxx'
     }
     e = input('enter a English word:')
     if e == 'q':
