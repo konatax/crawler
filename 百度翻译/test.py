@@ -24,7 +24,7 @@ def get_sign(word):
 def main():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-        "cookie": "BAIDUID=850C02CF225E4F3E9D177CC2146F26DF:FG=1",
+        "cookie": "BAIDUID=xxxxxxxxxx",
         "Referer": "https://fanyi.baidu.com/",
         # "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
     }
@@ -46,7 +46,7 @@ def main():
         "transtype": "realtime",
         "simple_means_flag": "3",
         "sign": sign,
-        "token": "0a79c73dce9dd314d2d1bfffd8cdb922",
+        "token": "xxxxxxxxxxxxx",
         "domain": "common"
     }
     url = "https://fanyi.baidu.com/v2transapi?from=en&to=zh"
