@@ -9,7 +9,7 @@ import ssl
 from Crypto.Util.Padding import pad
 
 def base64_api(img):
-    data = {"username": 'q6035945', "password": 'q6035945', "typeid": 3, "image": img}
+    data = {"username": 'xxxxx', "password": 'xxxxx', "typeid": 3, "image": img}
     result = json.loads(requests.post("http://api.ttshitu.com/predict", json=data).text)
     if result['success']:
         return result["data"]["result"]
