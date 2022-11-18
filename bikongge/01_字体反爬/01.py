@@ -82,9 +82,9 @@ print(uni_ok_list)  #['\\uebc6', '\\ue118', '\\ue315', '\\ue419', '\\uf275'....
 from aip import AipOcr
 
 """ 你的 APPID AK SK """
-APP_ID = '28067874'
-API_KEY = 'l5BmOn6geHb2sw3BhS0nMylL'
-SECRET_KEY = 'hoXHVYoEm7qNoVdqdcIxMrIPUiM0fkRE'
+APP_ID = 'xxxx'
+API_KEY = 'xxxx'
+SECRET_KEY = 'xxxxxxxxx'
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 # 字体转换到图片时可以尝试几种字体大小（行索引那里，然后测试网页转换的字体正确率怎么样
